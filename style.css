@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to left ,white,blue,rgb(73, 71, 71), rgb(255, 38, 0), rgba(0, 0, 0, 0.842));
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    margin: 100px auto;
+    border: 2px solid;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    width: 85%;
+    padding: 10px 5px;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.05rem;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px 25px;
+    width: 60%;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    background-color: rgba(82, 82, 255, 0.87);
+    color: white;
+    font-size: 1rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+button:hover{
+    background-color: rgb(82, 82, 255);;
+    transform: scale(1.05);
+    transition: background, transform 0.2s;
+}
+
+.resultDisplay{
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-decoration: overline;
+}
